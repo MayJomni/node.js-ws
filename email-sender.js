@@ -17,7 +17,7 @@ const transporter = nodemailer.createTransport({
 // 3. Configuration de l'email
 const mailOptions = {
     from: process.env.EMAIL,            // Utilise aussi l'email du .env
-    to: 'mayjomni2003@gmail.com',    // Mettez votre email de test ici
+    to: 'gdrhedthdehgit@gmail.com',    // Mettez votre email de test ici
     subject: 'Test Email depuis Node.js',
     text: 'Ceci est un email de test envoyé depuis Node.js!',
     html: '<h1>Bravo!</h1><p>Vous avez réussi à envoyer un email avec Node.js</p>'
